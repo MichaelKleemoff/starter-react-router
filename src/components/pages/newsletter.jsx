@@ -7,7 +7,7 @@ export default function NewsLetter() {
 		alert(
 			'You will now get our newsletters hourly! Taking you back to the home page now'
 		);
-		navigate('/');
+		navigate('/about');
 	}
 
 	return (
