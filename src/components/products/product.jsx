@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 
 export default function Product({ products }) {
 	let { id } = useParams();
+
 	const mockBuyNow = () => {
 		alert(
 			"You pressed Buy Now! Congrats! Our sophisticated system is already charging your card and sending you your purchase. Let's go back to the home page!"

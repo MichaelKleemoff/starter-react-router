@@ -11,7 +11,9 @@ export default function ProductList({ products, type }) {
 							<li key={product.id}>
 								<Link to={`/${type.toLowerCase()}/${product.id}`}>
 									<h4>{product.name}</h4>
-									<img src={product.image} alt={product.name} />
+									<h4>
+										<img src={product.image} alt={product.name} />
+									</h4>
 								</Link>
 							</li>
 						);
